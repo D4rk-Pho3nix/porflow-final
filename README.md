@@ -1,42 +1,153 @@
 # PortFlow
 
-Welcome to the PortFlow repository! This platform is an AI-powered customs clearance solution designed to streamline international trade by automating document management and providing real-time shipment tracking. Our goal is to eliminate middlemen and reduce delays for traders everywhere.
+![License](https://img.shields.io/github/license/D4rk-Pho3nix/porflow-final) ![Version](https://img.shields.io/github/package-json/v/D4rk-Pho3nix/porflow-final) ![Next.js](https://img.shields.io/badge/Next.js-15-black) ![Tailwind CSS](https://img.shields.io/badge/Tailwind-CSS-38B2AC) ![TypeScript](https://img.shields.io/badge/TypeScript-Ready-blue) ![Deployment](https://img.shields.io/badge/Deployment-Netlify-00AD9F) ![Stars](https://img.shields.io/github/stars/D4rk-Pho3nix/porflow-final?style=flat) ![Forks](https://img.shields.io/github/forks/D4rk-Pho3nix/porflow-final?style=flat) ![Issues](https://img.shields.io/github/issues/D4rk-Pho3nix/porflow-final?style=flat)
 
-## Tech Stack
-- **Framework:** Next.js (App Router)
-- **Styling:** Tailwind CSS & Framer Motion
-- **Language:** TypeScript
-- **Build Tools:** PostCSS, ESLint
+PortFlow is a professional AI-powered customs clearance platform engineered to modernize international trade. By automating document management and compliance verification, the platform eliminates the need for intermediaries, reduces operational delays, and provides traders with high-precision financial forecasting through automated duty calculations.
 
-## Getting Started
-To get the project running locally, follow these simple steps:
+---
 
-1. Clone the repository
-2. Install dependencies: `npm install`
-3. Start the development server: `npm run dev`
+## Table of Contents
 
-## Deployment
-This project is optimized for easy deployment on platforms like Netlify and GitHub Pages.
+| Section | Description |
+| :--- | :--- |
+| [Overview](#overview) | Project mission and value proposition |
+| [Features](#features) | Key platform capabilities and AI integrations |
+| [Architecture](#architecture) | Repository structure and file organization |
+| [Installation](#installation) | Environment setup and local development |
+| [Usage](#usage) | Configuration and deployment instructions |
+| [Contributing](#contributing) | Guidelines for project participation |
+| [Contributors](#contributors) | Recognition of project developers |
+| [Support](#support) | Project funding and community support |
+| [License](#license) | Legal usage permissions |
 
-### Docker
-If you prefer to use containerization, we've made it easy to get started with Docker. You can build and run the application using the following commands:
+---
 
-**Build the image:**
-```bash
-docker build -t portflow-final .
+## Overview
+
+PortFlow addresses the inherent complexities of global logistics by providing a centralized, AI-driven interface for both traders and customs authorities. The platform optimizes the clearance lifecycle by automating regulatory checks, which significantly minimizes overhead costs and shipment bottlenecks. Users benefit from end-to-end transparency through real-time stage tracking and data-backed tax estimations based on global trade agreements.
+
+---
+
+## Features
+
+*   **AI-Powered Document Management**: Automated verification of shipping documents to ensure regulatory compliance.
+*   **Real-Time Shipment Tracking**: Integrated stage-based views providing transparency throughout the clearance lifecycle.
+*   **AI-Driven Tax & Duty Calculator**: Accurate financial estimates based on HSN codes and current international trade agreements.
+*   **QR-Based Customs Inspection**: Instant document access for customs officers via secure, unique QR codes.
+*   **Adaptive UI Architecture**: Dedicated component paths for Desktop and Mobile users to ensure an optimized experience across all devices.
+*   **Interactive UX**: Custom reactive cursor and scroll-linked SVG animations powered by Framer Motion.
+*   **Early Access System**: Integrated waitlist management with automated email validation.
+
+---
+
+## Architecture
+
+```text
+.
+├── public/             # Static assets (videos, images, icons)
+├── src/
+│   ├── app/            # Next.js App Router (layouts and pages)
+│   ├── components/     # React components (Atomic design)
+│   ├── context/        # Global state providers (Cursor, Theme)
+│   ├── hooks/          # Custom React hooks (MobileDetection)
+│   ├── lib/            # Utility functions and configurations
+│   └── styles/         # Global CSS and Tailwind directives
+├── check-images.js     # Asset validation script
+├── check-video.js      # Media validation script
+├── Dockerfile          # Container configuration
+├── next.config.js      # Next.js configuration
+├── package.json        # Dependencies and scripts
+└── tailwind.config.ts  # Tailwind CSS configuration
 ```
 
-**Run the container:**
+---
+
+## Installation
+
+Follow these steps to set up the development environment:
+
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/D4rk-Pho3nix/porflow-final.git
+    ```
+
+2.  **Navigate to the project directory:**
+    ```bash
+    cd porflow-final
+    ```
+
+3.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
+
+4.  **Verify local assets:**
+    ```bash
+    node check-video.js
+    node check-images.js
+    ```
+
+5.  **Launch the development server:**
+    ```bash
+    npm run dev
+    ```
+
+---
+
+## Usage
+
+### Local Development
+To customize the visual theme of the platform, modify the HSL variables in `globals.css`:
+```css
+:root {
+  --primary: 110 100% 50%; 
+}
+```
+
+### Docker Deployment
+For containerized production testing:
 ```bash
+# Build the image
+docker build -t portflow-final .
+
+# Run the container
 docker run -p 3000:3000 portflow-final
 ```
 
-Once the container is running, you can access the platform at `http://localhost:3000`.
+---
 
-## Testing
-We use Jest for our testing suite to ensure everything runs smoothly. You can run the tests using:
-```bash
-npm test
-```
+## Contributing
 
-We hope you find PortFlow helpful for your customs clearance needs!
+We welcome contributions. To maintain code quality, please follow these guidelines:
+
+1.  **Fork the Project**: Create your own fork of the repository.
+2.  **Create a Feature Branch**: `git checkout -b feature/AmazingFeature`.
+3.  **Code Quality**: Ensure code passes linting (`npm run lint`).
+4.  **Commit Changes**: Use descriptive commit messages.
+5.  **Open a Pull Request**: Provide a detailed description of changes.
+
+---
+
+## Contributors
+
+[![D4rk-Pho3nix](https://github.com/D4rk-Pho3nix.png?size=50)](https://github.com/D4rk-Pho3nix)
+
+---
+
+## Support
+
+If you find this project helpful, please consider supporting its development:
+
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-Donate-yellow.svg?style=for-the-badge&logo=buy-me-a-coffee)](https://buymeacoffee.com/d4rkpho3nix)
+
+---
+
+## License
+
+The license for this project has not been specified. Please contact the maintainer for usage permissions or check the `LICENSE` file in the repository.
+
+---
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=D4rk-Pho3nix/porflow-final&type=Date)](https://star-history.com/#D4rk-Pho3nix/porflow-final&Date)
