@@ -1,153 +1,227 @@
-# PortFlow
-![My Project Banner](https://rqecqirwmpmowvpezhki.supabase.co/storage/v1/object/public/generated-banners/session_1769419691572/style-reference.webp)
-![License](https://img.shields.io/github/license/D4rk-Pho3nix/porflow-final) ![Version](https://img.shields.io/github/package-json/v/D4rk-Pho3nix/porflow-final) ![Next.js](https://img.shields.io/badge/Next.js-15-black) ![Tailwind CSS](https://img.shields.io/badge/Tailwind-CSS-38B2AC) ![TypeScript](https://img.shields.io/badge/TypeScript-Ready-blue) ![Deployment](https://img.shields.io/badge/Deployment-Netlify-00AD9F) ![Stars](https://img.shields.io/github/stars/D4rk-Pho3nix/porflow-final?style=flat) ![Forks](https://img.shields.io/github/forks/D4rk-Pho3nix/porflow-final?style=flat) ![Issues](https://img.shields.io/github/issues/D4rk-Pho3nix/porflow-final?style=flat)
+<div align="center">
 
-PortFlow is a professional AI-powered customs clearance platform engineered to modernize international trade. By automating document management and compliance verification, the platform eliminates the need for intermediaries, reduces operational delays, and provides traders with high-precision financial forecasting through automated duty calculations.
+![Banner Placeholder](https://rqecqirwmpmowvpezhki.supabase.co/storage/v1/object/generated-banners/e9f157c8-5175-4514-b8b8-e35b74d21785/final-banner.gif)
 
----
+![Version](https://img.shields.io/github/v/release/D4rk-Pho3nix/porflow-final?style=flat-square&label=version&color=blue)
+![Release Date](https://img.shields.io/github/created-at/D4rk-Pho3nix/porflow-final?style=flat-square&label=released&color=green)
+![Last Commit](https://img.shields.io/github/last-commit/D4rk-Pho3nix/porflow-final?style=flat-square&label=last%20commit&color=purple)
+[![Followers](https://img.shields.io/github/followers/D4rk-Pho3nix?style=flat-square&logo=github&color=yellow)](https://github.com/D4rk-Pho3nix)
+![License](https://img.shields.io/github/license/D4rk-Pho3nix/porflow-final?style=flat-square&color=orange)
+[![Contact](https://img.shields.io/badge/Contact-Dev-cyan?style=flat-square)](mailto:manish.srmist23@gmail.com)
 
-## Table of Contents
+
+**made with 🩷 by [D4rk-Pho3nix](https://github.com/D4rk-Pho3nix)**
+*(if you like my work, consider ⭐ starring the repo!)*
+
+</div>
+
+<a name="table-of-contents"></a>
+## 📑 Table of Contents
 
 | Section | Description |
-| :--- | :--- |
-| [Overview](#overview) | Project mission and value proposition |
-| [Features](#features) | Key platform capabilities and AI integrations |
-| [Architecture](#architecture) | Repository structure and file organization |
-| [Installation](#installation) | Environment setup and local development |
-| [Usage](#usage) | Configuration and deployment instructions |
-| [Contributing](#contributing) | Guidelines for project participation |
-| [Contributors](#contributors) | Recognition of project developers |
-| [Support](#support) | Project funding and community support |
-| [License](#license) | Legal usage permissions |
+|---------|-------------|
+| [💡 Why this exists](#-why-this-exists) | Purpose and background of the project |
+| [✨ Features](#-features) | Key capabilities and highlights |
+| [📸 Product Showcase](#-product-showcase) | Visual gallery of features |
+| [🏗️ Architecture](#-architecture) | Codebase structure and organization |
+| [🚀 Quick Start](#-quick-start) | Get up and running in minutes |
+| [📖 Usage](#-usage) | Detailed usage instructions |
+| [🤝 Contributing](#-contributing) | Guidelines for contributors |
+| [🎗️ Maintainers](#-maintainers) | Project maintainers |
+| [🩷 Contributors](#-contributors) | Project contributors |
+| [💖 Support](#-support) | How to support the project |
+| [📄 License](#-license) | Licensing information |
 
----
+## 💡 Why this exists
 
-## Overview
+> [!TIP]
+> Modernizing customs clearance through AI automation and real-time tracking.
 
-PortFlow addresses the inherent complexities of global logistics by providing a centralized, AI-driven interface for both traders and customs authorities. The platform optimizes the clearance lifecycle by automating regulatory checks, which significantly minimizes overhead costs and shipment bottlenecks. Users benefit from end-to-end transparency through real-time stage tracking and data-backed tax estimations based on global trade agreements.
+**Background:** The project addresses complexities in global logistics by providing a centralized, AI-driven interface for traders and customs authorities to minimize overhead costs and shipment bottlenecks.
 
----
+## ✨ Features
 
-## Features
+- **AI-Powered Document Management**: Automated collection and verification of shipping documents to ensure regulatory compliance.
+- **Real-Time Shipment Tracking**: Comprehensive monitoring of logistics milestones.
+- **AI-Driven Tax & Duty Calculator**: Financial forecasting using HSN codes and international trade agreements.
+- **QR-Based Customs Inspection**: Instant document access for officers via secure QR codes scanned from the mobile app.
+- **Adaptive UI (Mobile/Desktop)**: Distinct component paths for Desktop and Mobile users using device detection for optimized UX.
+- **Interactive SVG Scroll Animations**: Custom reactive cursor and scroll-linked animations powered by Framer Motion.
+- **Early Access Waitlist System**: Integrated lead generation for upcoming platform releases.
 
-*   **AI-Powered Document Management**: Automated verification of shipping documents to ensure regulatory compliance.
-*   **Real-Time Shipment Tracking**: Integrated stage-based views providing transparency throughout the clearance lifecycle.
-*   **AI-Driven Tax & Duty Calculator**: Accurate financial estimates based on HSN codes and current international trade agreements.
-*   **QR-Based Customs Inspection**: Instant document access for customs officers via secure, unique QR codes.
-*   **Adaptive UI Architecture**: Dedicated component paths for Desktop and Mobile users to ensure an optimized experience across all devices.
-*   **Interactive UX**: Custom reactive cursor and scroll-linked SVG animations powered by Framer Motion.
-*   **Early Access System**: Integrated waitlist management with automated email validation.
+## 📸 Product Showcase
 
----
+<div align="center">
+  <img src="https://rqecqirwmpmowvpezhki.supabase.co/storage/v1/object//generated-banners/showcase-e9f157c8-5175-4514-b8b8-e35b74d21785/showcase1.png" alt="Platform Header Interface" width="100%">
 
-## Architecture
+  <details>
+    <summary><b>View Gallery</b></summary>
+    <table width="100%">
+      <tr>
+        <td width="100%" align="center" style="vertical-align: top;">
+          <b>Validation and Workflow Visualization</b><br>
+          <img src="https://rqecqirwmpmowvpezhki.supabase.co/storage/v1/object//generated-banners/showcase-e9f157c8-5175-4514-b8b8-e35b74d21785/showcase2.gif" alt="Workflow Animation" width="100%">
+        </td>
+      </tr>
+    </table>
+  </details>
+</div>
 
-```text
-.
-├── public/             # Static assets (videos, images, icons)
-├── src/
-│   ├── app/            # Next.js App Router (layouts and pages)
-│   ├── components/     # React components (Atomic design)
-│   ├── context/        # Global state providers (Cursor, Theme)
-│   ├── hooks/          # Custom React hooks (MobileDetection)
-│   ├── lib/            # Utility functions and configurations
-│   └── styles/         # Global CSS and Tailwind directives
-├── check-images.js     # Asset validation script
-├── check-video.js      # Media validation script
-├── Dockerfile          # Container configuration
-├── next.config.js      # Next.js configuration
-├── package.json        # Dependencies and scripts
-└── tailwind.config.ts  # Tailwind CSS configuration
+## 🏗️ Architecture
+
+```bash
+src/
+├── app/                  # Core routing, global styles, and layout management
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.tsx
+├── components/           # Reusable UI components (Atomic Design)
+│   ├── magicui/          # Specialized UI library components
+│   ├── mobile/           # Mobile-specific view implementations
+│   ├── ui/               # Base UI primitives
+│   └── [functional-components].tsx
+├── hooks/                # Device detection and responsive logic
+│   ├── use-media-query.tsx
+│   └── use-mobile-detection.tsx
+├── lib/                  # Utility functions and configuration
+│   └── utils.ts
+└── public/               # Static assets, fonts, and media
+    ├── assets/
+    └── fonts/
 ```
 
----
+## 🚀 Quick Start
 
-## Installation
+> [!IMPORTANT]
+> Ensure you are using Node.js v18+ to maintain compatibility with Next.js 15 features.
 
-Follow these steps to set up the development environment:
+### Prerequisites
 
-1.  **Clone the repository:**
-    ```bash
-    git clone https://github.com/D4rk-Pho3nix/porflow-final.git
-    ```
+| Requirement | Version | Notes |
+|-------------|---------|-------|
+| Node.js | ^18.17.0 | Required for Next.js 15 |
+| npm | ^9.0.0 | Recommended package manager |
+| Docker | Latest | Optional for containerized deployment |
 
-2.  **Navigate to the project directory:**
-    ```bash
-    cd porflow-final
-    ```
+> [!WARNING]
+> Asset validation scripts (`check-video.js`) must be run prior to deployment to ensure all local media references are resolved.
 
-3.  **Install dependencies:**
-    ```bash
-    npm install
-    ```
+### Clone & Setup
 
-4.  **Verify local assets:**
-    ```bash
-    node check-video.js
-    node check-images.js
-    ```
+```bash
+git clone https://github.com/D4rk-Pho3nix/porflow-final.git
+cd porflow-final
+```
 
-5.  **Launch the development server:**
-    ```bash
-    npm run dev
-    ```
+### Install
+```bash
+npm install
+```
 
----
+### Build
+```bash
+npm run build
+```
 
-## Usage
+### Run
+```bash
+npm run dev
+```
 
-### Local Development
-To customize the visual theme of the platform, modify the HSL variables in `globals.css`:
+> [!NOTE]
+> The development server will be available at `http://localhost:3000`.
+
+## 🤖 Usage
+
+PortFlow is designed to bridge the gap between traders and customs authorities. Traders utilize the dashboard to upload documents and calculate duties, while officers verify compliance via QR code scanning.
+
+### Customization Examples
+
+**Adjusting Visual Identity**
+Modify the CSS variables in `globals.css` to update the neon primary theme:
 ```css
 :root {
-  --primary: 110 100% 50%; 
+  --primary: 110 100% 50%; /* Adjust HSL values for neon green customization */
 }
 ```
 
-### Docker Deployment
-For containerized production testing:
+**Docker Deployment**
+For production-ready environments:
 ```bash
-# Build the image
 docker build -t portflow-final .
-
-# Run the container
 docker run -p 3000:3000 portflow-final
 ```
 
----
+## 🤝 Contributing
+Contributions are welcome! Please see CONTRIBUTING.md for guidelines.
 
-## Contributing
+Quick contribution flow:
 
-We welcome contributions. To maintain code quality, please follow these guidelines:
+```bash
+# Fork the repo
+# Create your feature branch
+git checkout -b feature/amazing-feature
 
-1.  **Fork the Project**: Create your own fork of the repository.
-2.  **Create a Feature Branch**: `git checkout -b feature/AmazingFeature`.
-3.  **Code Quality**: Ensure code passes linting (`npm run lint`).
-4.  **Commit Changes**: Use descriptive commit messages.
-5.  **Open a Pull Request**: Provide a detailed description of changes.
+# Make your changes
+# Commit with conventional commits
+git commit -m "feat: add amazing feature"
 
----
+# Push and create PR
+git push origin feature/amazing-feature
+```
 
-## Contributors
+> [!NOTE] 
+> All PRs must pass CI linting and custom asset checks before merging.
 
-[![D4rk-Pho3nix](https://github.com/D4rk-Pho3nix.png?size=50)](https://github.com/D4rk-Pho3nix)
+## 🎗️ Maintainers
+<div align="left"> 
+  <a href="https://github.com/D4rk-Pho3nix"> 
+    <img src="https://github.com/D4rk-Pho3nix.png?size=100" width="100px;" alt="D4rk-Pho3nix"/> 
+  </a> 
+</div>
 
----
+## 🩷 Contributors
+Thanks goes to these wonderful people <3:
 
-## Support
+<div align="left"> 
+<table> 
+  <tbody> 
+    <tr> 
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://github.com/D4rk-Pho3nix">
+          <img src="https://github.com/D4rk-Pho3nix.png?size=100" width="100px;" alt="D4rk-Pho3nix"/><br />
+          <sub><b>D4rk-Pho3nix</b></sub>
+        </a><br />
+        <a href="#" title="Code">💻</a>
+      </td> 
+    </tr> 
+  </tbody> 
+</table> 
+</div>
 
-If you find this project helpful, please consider supporting its development:
+This project follows the [all-contributors](https://allcontributors.org/) specification.
 
-[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-Donate-yellow.svg?style=for-the-badge&logo=buy-me-a-coffee)](https://buymeacoffee.com/d4rkpho3nix)
+## 💖 Support
+If this project helped you, consider buying me a coffee, any donation is appreciated and goes towards my caffeine addiction :p
 
----
+<a href="https://buymeacoffee.com/hf2p"> 
+  <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExem14OW1tanN3eHlyYmR4NW1sYmJkOTZmbmJxejdjZXB6MXY5cW12MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/TDQOtnWgsBx99cNoyH/giphy.gif" width="80"> 
+</a>
 
-## License
+## 📄 License
 
-The license for this project has not been specified. Please contact the maintainer for usage permissions or check the `LICENSE` file in the repository.
+```text
+Usage permissions are currently restricted. Contact D4rk-Pho3nix for licensing details.
+```
 
----
-
-## Star History
+<div align="center">
 
 [![Star History Chart](https://api.star-history.com/svg?repos=D4rk-Pho3nix/porflow-final&type=Date)](https://star-history.com/#D4rk-Pho3nix/porflow-final&Date)
+
+</div>
+
+<div align="center">
+
+⬆ [Back to Top](#table-of-contents)
+
+</div>
