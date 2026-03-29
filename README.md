@@ -1,13 +1,12 @@
 <div align="center">
 
-![Banner Placeholder](https://rqecqirwmpmowvpezhki.supabase.co/storage/v1/object/generated-banners/29bd6b75-9d96-4986-b948-1af7a29bcb2a/final-banner.gif)
+![PortFlow Banner](https://rqecqirwmpmowvpezhki.supabase.co/storage/v1/object/generated-banners/8bbfa57e-b061-46b8-af8c-7056836d2b06/final-banner.gif)
 
 ![Release Date](https://img.shields.io/github/created-at/D4rk-Pho3nix/porflow-final?style=flat-square&label=released&color=green)
 ![Last Commit](https://img.shields.io/github/last-commit/D4rk-Pho3nix/porflow-final?style=flat-square&label=last%20commit&color=purple)
 [![Followers](https://img.shields.io/github/followers/D4rk-Pho3nix?style=flat-square&logo=github&color=yellow)](https://github.com/D4rk-Pho3nix)
 ![License](https://img.shields.io/github/license/D4rk-Pho3nix/porflow-final?style=flat-square&color=orange)
 [![Contact](https://img.shields.io/badge/Contact-Dev-cyan?style=flat-square)](mailto:manish.srmist23@gmail.com)
-
 
 **made with 🩷 by [D4rk-Pho3nix](https://github.com/D4rk-Pho3nix)**
 *(if you like my work, consider ⭐ starring the repo!)*
@@ -25,7 +24,6 @@
 | [🏗️ Architecture](#-architecture) | Codebase structure and organization |
 | [🚀 Quick Start](#-quick-start) | Get up and running in minutes |
 | [📖 Usage](#-usage) | Detailed usage instructions |
-| [🤝 Contributing](#-contributing) | Guidelines for contributors |
 | [🎗️ Maintainers](#-maintainers) | Project maintainers |
 | [💖 Support](#-support) | How to support the project |
 | [📄 License](#-license) | Licensing information |
@@ -33,35 +31,34 @@
 ## 💡 Why this exists
 
 > [!TIP]
-> PortFlow is an AI-powered customs clearance and trade automation platform designed to streamline global import/export operations by eliminating middlemen, reducing delays, and automating document management.
+> An AI-powered customs clearance and trade automation platform designed to streamline global import/export operations by automating document management and reducing delays.
 
-**Background:** Traditional customs clearance is plagued by manual paperwork, reliance on brokers, and unpredictable delays. PortFlow provides a direct, digital, and AI-driven alternative to ensure faster and more cost-effective trade compliance.
+**Background:** Traditional customs clearance is plagued by manual paperwork, reliance on brokers, and unpredictable delays. PortFlow provides a direct, digital, and AI-driven alternative to modernize trade compliance and logistical workflows.
 
 ## ✨ Features
 
-- **AI-Powered Document Management**: Automates the collection, verification, and compliance checks of trade documents to reduce errors and accelerate approvals.
-- **Real-Time Shipment Tracking**: Integration for live tracking of shipments and monitoring their specific stage in the customs clearance pipeline.
-- **AI-Driven Tax & Duty Calculator**: Calculates import/export duties automatically using HSN codes and trade agreements to prevent misclassification.
-- **QR-Based Customs Inspection**: Enables instant access to shipment documentation for officers and traders via QR code scanning.
-- **Responsive Design with Device Detection**: Separate optimized workflows for Desktop and Mobile users with specialized components for each environment.
-- **Secure Encrypted Data Storage**: Ensures all trade and sensitive document data is stored with high-level encryption.
+- **AI-Powered Document Management**: Automates the collection, verification, and compliance checks of complex trade documents to heavily reduce processing errors.
+- **Real-Time Shipment Tracking**: Implements live tracking of global shipments natively integrated with real-time customs clearance stage monitoring.
+- **AI-Driven Tax & Duty Calculator**: Automates the calculation of import/export duties leveraging standardized HSN codes and international trade agreements.
+- **Custom Interactive UI**: Incorporates bespoke frontend capabilities including a custom cursor architecture, magnetic DOM elements, and Framer Motion-powered scroll sequences.
+- **Dual-Viewport Optimization**: Executes strictly separated logic paths and asset delivery for desktop and mobile clients to ensure optimal rendering performance across devices.
 
 ## 📸 Product Showcase
 
 <div align="center">
-  <img src="https://rqecqirwmpmowvpezhki.supabase.co/storage/v1/object//generated-banners/showcase-29bd6b75-9d96-4986-b948-1af7a29bcb2a/showcase1.png" alt="Main Showcase" width="100%">
+  <img src="https://rqecqirwmpmowvpezhki.supabase.co/storage/v1/object//generated-banners/showcase-8bbfa57e-b061-46b8-af8c-7056836d2b06/showcase1.png" alt="Main Showcase" width="100%">
 
   <details>
     <summary><b>View Gallery</b></summary>
     <table width="100%">
       <tr>
         <td width="50%" align="center" style="vertical-align: top;">
-          <b>Implementation Structure</b><br>
-          <img src="https://rqecqirwmpmowvpezhki.supabase.co/storage/v1/object//generated-banners/showcase-29bd6b75-9d96-4986-b948-1af7a29bcb2a/showcase2.gif" alt="header" width="100%">
+          <b>feature 1</b><br>
+          <img src="https://rqecqirwmpmowvpezhki.supabase.co/storage/v1/object//generated-banners/showcase-8bbfa57e-b061-46b8-af8c-7056836d2b06/showcase2.gif" alt="feature 1" width="100%">
         </td>
         <td width="50%" align="center" style="vertical-align: top;">
-          <b>Validation Workflow</b><br>
-          <img src="https://rqecqirwmpmowvpezhki.supabase.co/storage/v1/object//generated-banners/showcase-29bd6b75-9d96-4986-b948-1af7a29bcb2a/showcase3.gif" alt="footer" width="100%">
+          <b>feature 2</b><br>
+          <img src="https://rqecqirwmpmowvpezhki.supabase.co/storage/v1/object//generated-banners/showcase-8bbfa57e-b061-46b8-af8c-7056836d2b06/showcase3.gif" alt="feature 2" width="100%">
         </td>
       </tr>
     </table>
@@ -70,32 +67,32 @@
 
 ## 🏗️ Architecture
 
+Built on the Next.js App Router paradigm, enforcing strict client/server boundaries while maintaining modularized viewport routing mechanisms.
+
 ```text
-.
+porflow-final/
 ├── app/                   # Core routing, global layouts, and error boundaries
 ├── components/            # Reusable UI components and desktop sections
 │   ├── mobile/            # Optimized views for mobile viewport detection
-│   └── ui/                # Fundamental UI primitives (buttons, toasts)
+│   ├── ui/                # Fundamental UI primitives (buttons, toasts)
+│   └── magicui/           # Specialized animation components
 ├── hooks/                 # Media queries and device detection logic
 ├── public/                # Static assets and media resources
-├── next.config.ts         # Next.js framework configuration
-└── tailwind.config.ts     # Styling and theme definitions
+├── lib/                   # Utility functions (cn, etc.)
+└── config/                # Framework and styling configurations
 ```
 
 ## 🚀 Quick Start
 
 > [!IMPORTANT]
-> Ensure your local environment matches the Node.js requirements for Next.js 15 to avoid build-time compatibility issues.
+> A modern Node.js environment is strictly required for local development to support Next.js 15 routing parameters.
 
 ### Prerequisites
 
 | Requirement | Version | Notes |
 |-------------|---------|-------|
-| Node.js | ^18.18.0 \|\| ^20.9.0 \|\| >=21.1.0 | Required for Next.js 15 |
-| npm | >=9.x | Package management |
-
-> [!WARNING]
-> This project utilizes Framer Motion for complex animations; hardware acceleration should be enabled in your browser for the best experience.
+| Node.js | >= 18.17.0 | Required for App Router functionality |
+| npm | >= 9.x | Dependency resolution |
 
 ### Clone & Setup
 
@@ -120,28 +117,21 @@ npm run dev
 ```
 
 > [!NOTE] 
-> The development server will typically start at `http://localhost:3000`.
+> The application will instantiate an interactive development server typically exposed at `http://localhost:3000`.
 
 **Uninstall**
 ```bash
 npm uninstall <package_name>
 ```
 
-## 🤖 Usage
+## 📖 Usage
 
-PortFlow is a web-based platform. Users can land on the site, view detailed feature demos (including video previews), meet the development team, and sign up for early access via a specialized modal.
+PortFlow acts as the central intelligence hub for trade logistics. Verified participants interface via an encrypted dashboard to orchestrate compliance documents, visualize active shipments via geospatial maps, and initiate rapid customs interventions via standardized QR infrastructure.
 
-### Deployment Example
-Deploy to GitHub Pages using the automated workflow:
-```yaml
-uses: JamesIves/github-pages-deploy-action@v4
-with:
-  folder: out
-  branch: gh-pages
-```
+### Technical Implementation Examples
 
-### Layout Implementation
-Custom cursor implementation in the application layout:
+**Global Context Architecture**
+Implementation of the custom `CursorProvider` layer instantiated inside the root application layout to distribute dynamic magnetic calculations.
 ```tsx
 <ThemeProvider ...>
   <CursorProvider>
@@ -150,48 +140,35 @@ Custom cursor implementation in the application layout:
 </ThemeProvider>
 ```
 
-## 🤝 Contributing
-
-Contributions are welcome! Please see `CONTRIBUTING.md` for guidelines.
-
-Quick contribution flow:
-
-```bash
-# Fork the repo
-# Create your feature branch
-git checkout -b feature/amazing-feature
-
-# Make your changes
-# Commit with conventional commits
-git commit -m "feat: add amazing feature"
-
-# Push and create PR
-git push origin feature/amazing-feature
+**Automated Deployment CI/CD**
+The repository integrates automated GitHub Action workflows targeting production optimization.
+```yaml
+uses: JamesIves/github-pages-deploy-action@v4
+with:
+  folder: out
+  branch: gh-pages
 ```
-
-> [!NOTE] 
-> All PRs must pass CI checks before merging.
 
 ## 🎗️ Maintainers
 
-<div align="left"> 
-  <a href="https://github.com/D4rk-Pho3nix"> 
-    <img src="https://github.com/D4rk-Pho3nix.png?size=100" width="100px;" alt="D4rk-Pho3nix"/> 
-  </a> 
+<div align="left">
+  <a href="https://github.com/D4rk-Pho3nix">
+    <img src="https://github.com/D4rk-Pho3nix.png?size=100" width="100px;" alt="D4rk-Pho3nix"/>
+  </a>
 </div>
 
 ## 💖 Support
 
-If this project helped you, consider buying me a coffee, any donation is appreciated and goes towards my caffeine addiction :p
+If this infrastructure helped streamline your logistical deployment, consider supporting the core maintenance via the link below.
 
-<a href="https://buymeacoffee.com/manish-kumar-s"> 
-  <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExem14OW1tanN3eHlyYmR4NW1sYmJkOTZmbmJxejdjZXB6MXY5cW12MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/TDQOtnWgsBx99cNoyH/giphy.gif" width="80"> 
+<a href="https://buymeacoffee.com/d4rkpho3nix">
+  <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExem14OW1tanN3eHlyYmR4NW1sYmJkOTZmbmJxejdjZXB6MXY5cW12MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/TDQOtnWgsBx99cNoyH/giphy.gif" width="80" alt="Support GIF">
 </a>
 
 ## 📄 License
 
-```
-Permissions of this strong copyleft license are conditioned on making available complete source code of licensed works and modifications.
+```text
+Strong Copyleft: Permissions are conditioned on making available complete source code of licensed works and modifications.
 ```
 
 <div align="center">
